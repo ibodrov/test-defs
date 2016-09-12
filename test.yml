@@ -1,2 +1,2 @@
 main:
-- expr: log.info("test", "Hello from " + __attr_gitLocalPath)
+- expr: ${log.info("test", "Hello from " + __attr_gitLocalPath)}
